@@ -7,7 +7,7 @@ You can see the source <a href="https://github.com/nivwusquorum/Simple-Guitar-Tu
 
 # Usage
 
-1. Add a element FrequencyView in your layout:
+* Add a element FrequencyView in your layout:
 
 ```xml
 <com.todoapps.frequencyviewer.FrequencyView
@@ -16,13 +16,13 @@ You can see the source <a href="https://github.com/nivwusquorum/Simple-Guitar-Tu
   android:layout_height="300dp"/>
 ```
 
-* In Activity:
+* Add In Activity:
   
 ```java
   FrequencyView frequencyView = (FrequencyView)findViewById(R.id.frequency_view);
 ```
 
-2. Declare a FrequencyViewerHelper in your activity and init:
+* Declare a FrequencyViewerHelper in your activity and init with FrequencyView object:
 
 ```java
   FrequencyViewerHelper frequencyViewerHelper;
@@ -32,17 +32,20 @@ You can see the source <a href="https://github.com/nivwusquorum/Simple-Guitar-Tu
       super.onCreate(savedInstanceState);
       setContentView(R.layout.activity_main);
       
+      
+      FrequencyView frequencyView = (FrequencyView)findViewById(R.id.frequency_view);
       frequencyViewerHelper = new FrequencyViewerHelper(this, frequencyView);
       frequencyViewerHelper.showElements(true, true, true);
       frequencyViewerHelper.init();
   }
 ```
+
 ```java
   showElements(boolean lines, boolean freqNumber, boolean freqNumbers)
 ``` 
 This method is setted to see frequencies values, lines and last frequency number listened
     
-  3. Override these methods in your activity:
+* Override these methods in your activity:
     
 ```java
   @Override
@@ -62,4 +65,25 @@ This method is setted to see frequencies values, lines and last frequency number
       super.onStop();
       frequencyViewerHelper.stop();
   }
+```
+
+# License
+
+```
+Copyright 2013-2015 Federico Jordan
+
+This file is part of FrequencyViewer.
+
+FrequencyViewer is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+FrequencyViewer is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with FrequencyViewer.  If not, see <http://www.gnu.org/licenses/>.
 ```
