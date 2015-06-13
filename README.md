@@ -1,6 +1,7 @@
 # FrequencyViewer
 Simple Android listener and frequency plotter
 
+[![Screenshot of the sample app](https://raw.githubusercontent.com/fedejordan/FrequencyViewer/master/device-2015-06-13-140712.png)](https://play.google.com/store/apps/details?id=com.joanzapata.pdfview.sample)
 
 This project uses Simple-Guitar-Tuner to get frequencies value. 
 You can see the source <a href="https://github.com/nivwusquorum/Simple-Guitar-Tuner">here</a>
