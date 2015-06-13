@@ -71,7 +71,7 @@ This method is setted to see frequencies values, lines and last frequency number
 # License
 
 ```
-Copyright 2013-2015 Federico Jordan
+Copyright 2015 Federico Jordan
 
 This file is part of FrequencyViewer.
 
