@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/federicojordan/Documents/ProyectosPropios/FrequencyViewer/app/build/intermediates/exploded-aar/FrequencyViewer/simple-guitar-tuner/unspecified/jars/libs/jtransforms-2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e52124b670340d47844a734e36765c3bc11b7f3">
+        <dex dex="/Users/federicojordan/Documents/ProyectosPropios/FrequencyViewer/app/build/intermediates/pre-dexed/debug/jtransforms-2.4-d4f4ba07ee609196011114c17c180bd371951e71.jar" />
+    </item>
+    <item
+        jar="/Users/federicojordan/Documents/ProyectosPropios/FrequencyViewer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/federicojordan/Documents/ProyectosPropios/FrequencyViewer/app/build/intermediates/pre-dexed/debug/classes-697d24b5f9578a677fe0fee0a30d291c61f6c6bb.jar" />
+    </item>
+    <item
+        jar="/Users/federicojordan/Documents/ProyectosPropios/FrequencyViewer/app/build/intermediates/exploded-aar/FrequencyViewer/simple-guitar-tuner/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="12541ad64be5e15687c12bc4a064d97f7946f801">
+        <dex dex="/Users/federicojordan/Documents/ProyectosPropios/FrequencyViewer/app/build/intermediates/pre-dexed/debug/classes-a77a72ed76f330e7507c8c716d61b830f99d8242.jar" />
+    </item>
+    <item
+        jar="/Users/federicojordan/Documents/ProyectosPropios/FrequencyViewer/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/federicojordan/Documents/ProyectosPropios/FrequencyViewer/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-b5c9547ad16d756c984212bdfae390134be760ee.jar" />
+    </item>
+    <item
+        jar="/Users/federicojordan/Documents/ProyectosPropios/FrequencyViewer/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/federicojordan/Documents/ProyectosPropios/FrequencyViewer/app/build/intermediates/pre-dexed/debug/classes-01bca0cd9f0e39c1f03ee705f89caf0e68472e9a.jar" />
+    </item>
+    <item
+        jar="/Users/federicojordan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/federicojordan/Documents/ProyectosPropios/FrequencyViewer/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-2cfde18296b705b470990ae2fd8e52913008711b.jar" />
+    </item>
+
+</items>

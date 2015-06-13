@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.sidor.androidapps.simpletuner"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk android:minSdkVersion="7" /><uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    
+
+    <application
+        android:versionCode="2"
+        android:versionName="1.1"
+        android:debuggable="false">
+        <activity
+            android:name="org.sidor.androidapps.simpletuner.SimpleGuitarTunerActivity"
+            android:label="@string/appl_name" >
+        </activity>
+    </application>
+
+</manifest>
